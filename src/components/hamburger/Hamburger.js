@@ -15,9 +15,10 @@ const Hamburger = () => {
 
 
     <div class="overlay__content">
-      <a href="index.html">Home</a>
-      <a href="aboutme.html">About Me</a>
-      <a href="portfolio.html">Porfolio</a>
+      <a href="/">Home</a>
+      
+      <li><Link to='/myportfolio'>Portfolio</Link></li>
+      <li><Link to='/'>About Me</Link></li>
       <div class="row">
         <div class="column"> <a href="mailto:flores.d@sscrmnl.edu.ph" target="_blank"> <img
               src="Images/icons8-gmail.svg" alt=""/></a></div>
