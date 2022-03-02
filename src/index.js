@@ -2,10 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-
-
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
-
 import PortfolioPage from './routes/PortfolioPage'
 import AboutmePage from './routes/AboutmePage';
 import MultiCountryPage from './routes/MultiCountryPage';

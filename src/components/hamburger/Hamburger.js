@@ -1,14 +1,19 @@
 import React from 'react'
 import './HamburgerStyle.css'
 import {Link} from 'react-router-dom'
+import { useState, useEffect } from "react";
 
 const Hamburger = () => {
+  
   return (
     <div>
         
  {/* <!--------------HAMBURGER MENU------------------> */}
- <div id="mobile__menu" class="overlay">
+ <div class="overlay">
     <a class="close">&times;</a>
+
+
+
     <div class="overlay__content">
       <a href="index.html">Home</a>
       <a href="aboutme.html">About Me</a>
@@ -29,6 +34,12 @@ const Hamburger = () => {
   </div>
     </div>
   )
+
+
+
+  
 }
+
+
 
 export default Hamburger

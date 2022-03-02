@@ -4,9 +4,10 @@ import Footer from './components/footer/Footer'
 import Hamburger from './components/hamburger/Hamburger';
 import React,{useState} from 'react'
 
+
 const App = () => {
-
-
+ 
+ 
   return (
     <>
     <Navbar />
