@@ -18,6 +18,7 @@ const Hamburger = () => {
       <a href="/">Home</a>
       
       <li><Link to='/myportfolio'>Portfolio</Link></li>
+      
       <li><Link to='/'>About Me</Link></li>
       <div class="row">
         <div class="column"> <a href="mailto:flores.d@sscrmnl.edu.ph" target="_blank"> <img
