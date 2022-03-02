@@ -28,18 +28,18 @@ function Navbar(){
         <li><Link to='/myportfolio'>Portfolio</Link></li>
         <li><Link to='/'>About Me</Link></li>
         <div class="dropdown">
-          <li class="dropbtn"><a href="#">Connect <>&#9662;</> </a></li>
+          <li class="dropbtn"><a href="/#">Connect <>&#9662;</> </a></li>
           <div class="dropdown-content">
             <ul class="dropdownUl">
-              <a href="mailto:flores.d@sscrmnl.edu.ph" target="_blank"> <img src="Images/icons8-gmail.svg"
+              <a href="mailto:flores.d@sscrmnl.edu.ph" target="_blank" rel="noreferrer"> <img src="Images/icons8-gmail.svg"
                   alt="r"/><span>Gmail</span> </a>
-              <a href="https://www.linkedin.com/in/deinenflores/" target="_blank"> <img src="Images/linkedin.png"
+              <a href="https://www.linkedin.com/in/deinenflores/" target="_blank" rel="noreferrer"> <img src="Images/linkedin.png"
                   alt=""/>Linked In</a>
-              <a href="https://www.facebook.com/universe25/" target="_blank"> <img src="Images/icons8-facebook.svg"
+              <a href="https://www.facebook.com/universe25/" target="_blank" rel="noreferrer"> <img src="Images/icons8-facebook.svg"
                   alt=""/> Facebook</a>
-              <a href="https://www.Instagram.com/deinennn/" target="_blank"> <img src="Images/icons8-instagram.svg"
+              <a href="https://www.Instagram.com/deinennn/" target="_blank" rel="noreferrer"> <img src="Images/icons8-instagram.svg"
                   alt=""/>Instagram</a>
-              <a href="https://www.twitter.com/deinennn/" target="_blank"> <img src="Images/icons8-twitter.svg"
+              <a href="https://www.twitter.com/deinennn/" target="_blank" rel="noreferrer"> <img src="Images/icons8-twitter.svg"
                   alt=""/>Twitter</a>
             </ul>
           </div>
