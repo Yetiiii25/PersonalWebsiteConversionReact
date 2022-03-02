@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Landingpage from './components/landingpage/Landingpage'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
+import Hamburger from './components/hamburger/Hamburger';
+import React,{useState} from 'react'
 
-function App() {
+const App = () => {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar />
+    <Hamburger /> 
+    <Landingpage />
+    <Footer />
+    </>
   );
-}
+};
+
+
 
 export default App;
