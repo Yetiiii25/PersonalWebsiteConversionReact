@@ -6,6 +6,7 @@ import Footer from '../components/footer/Footer'
 
 
 const PisPage = () => {
+  
   return (
     <>
     <Navbar />

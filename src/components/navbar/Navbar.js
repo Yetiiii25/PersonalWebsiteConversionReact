@@ -1,14 +1,36 @@
-import React from 'react'
+import React,{useState} from 'react'
 import {Link} from 'react-router-dom'
 import './NavbarStyle.css'
 
 
 
 
-function Navbar(){
+const Navbar = () => {
 
  
+
+  const handleClick = () => {
+  
  
+    const doc = document;
+    const menuOpen = doc.querySelector(".menu");
+    const menuClose = doc.querySelector(".close");
+    const overlay = doc.querySelector(".overlay");
+    
+    menuOpen.addEventListener('click', () => {
+      overlay.classList.add("overlay--active");
+    });
+    
+    menuClose.addEventListener('click', () => {
+      overlay.classList.remove("overlay--active");
+    });
+    
+  
+  console.log('button clicked')
+
+} 
+
+
     return (
       <>
         {/* <!--------------NAVBAR------------------> */}
@@ -37,7 +59,8 @@ function Navbar(){
         </div>
       </ul>
     </nav>
-    <p class="menu cta">Menu</p>
+ 
+    <p class="menu cta" onClick={handleClick}>Menu</p>
 
   </header>
       </>

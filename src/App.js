@@ -7,11 +7,12 @@ import React,{useState} from 'react'
 
 
 const App = () => {
- 
- 
+
+
+  
   return (
     <>
-    <Navbar />
+    <Navbar  />
     <Hamburger /> 
     <Landingpage />
     <Footer />

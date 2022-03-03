@@ -85,3 +85,11 @@
       display: initial;
     }
   }
+
+  .active {
+    opacity: 1;
+}
+
+.deactive {
+    opacity: 0;
+}

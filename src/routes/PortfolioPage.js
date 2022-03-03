@@ -6,6 +6,9 @@ import Hamburger from '../components/hamburger/Hamburger'
  
 
 const PortfolioPage = () => {
+
+
+
   return (
     <>
     <Navbar />
