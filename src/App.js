@@ -3,7 +3,7 @@ import Hamburger from './components/hamburger/Hamburger';
 import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 
-import React,{useState} from 'react'
+import React from 'react'
 
 
 const App = () => {

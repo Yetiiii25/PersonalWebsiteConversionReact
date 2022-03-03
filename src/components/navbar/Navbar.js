@@ -1,35 +1,32 @@
-import React,{useState} from 'react'
+import React,{useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import './NavbarStyle.css'
 
 
 
 
-const Navbar = () => {
+const Navbar = ({HandleClick}) => {
 
- 
-
-  const handleClick = () => {
   
- 
-    const doc = document;
-    const menuOpen = doc.querySelector(".menu");
-    const menuClose = doc.querySelector(".close");
-    const overlay = doc.querySelector(".overlay");
-    
-    menuOpen.addEventListener('click', () => {
+  useEffect (() => {
+   
+   
+    const menuOpen = document.getElementsByClassName('menu cta')[0]
+    const menuClose = document.getElementsByClassName('close')[0]
+    const overlay =document.getElementsByClassName('overlay')[0]
+
+     menuOpen.addEventListener('click', () => {
       overlay.classList.add("overlay--active");
     });
     
     menuClose.addEventListener('click', () => {
       overlay.classList.remove("overlay--active");
     });
-    
   
-  console.log('button clicked')
+  console.log("hello world")
 
-} 
 
+})
 
     return (
       <>
@@ -60,7 +57,7 @@ const Navbar = () => {
       </ul>
     </nav>
  
-    <p class="menu cta" onClick={handleClick}>Menu</p>
+    <p class="menu cta" onClick={HandleClick}>Menu</p>
 
   </header>
       </>
