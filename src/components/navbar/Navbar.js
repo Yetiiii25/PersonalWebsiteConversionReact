@@ -23,7 +23,7 @@ const Navbar = ({HandleClick}) => {
       overlay.classList.remove("overlay--active");
     });
   
-  console.log("hello world")
+
 
 
 })
@@ -31,16 +31,16 @@ const Navbar = ({HandleClick}) => {
     return (
       <>
         {/* <!--------------NAVBAR------------------> */}
-        <header class="header" id="myHeader" name='top'>
-  <Link to='/' class="home">Home</Link>
+        <header className="header" id="myHeader" name='top'>
+  <Link to='/' className="home">Home</Link>
     <nav>
-      <ul class="nav__links">
+      <ul className="nav__links">
         <li><Link to='/myportfolio'>Portfolio</Link></li>
         <li><Link to='/'>About Me</Link></li>
-        <div class="dropdown">
-          <li class="dropbtn"><a href="/#">Connect <>&#9662;</> </a></li>
-          <div class="dropdown-content">
-            <ul class="dropdownUl">
+        <div className="dropdown">
+          <li className="dropbtn"><a href="/#">Connect <>&#9662;</> </a></li>
+          <div className="dropdown-content">
+            <ul className="dropdownUl">
               <a href="mailto:flores.d@sscrmnl.edu.ph" target="_blank" rel="noreferrer"> <img src="Images/icons8-gmail.svg"
                   alt="r"/><span>Gmail</span> </a>
               <a href="https://www.linkedin.com/in/deinenflores/" target="_blank" rel="noreferrer"> <img src="Images/linkedin.png"
@@ -57,7 +57,7 @@ const Navbar = ({HandleClick}) => {
       </ul>
     </nav>
  
-    <p class="menu cta" onClick={HandleClick}>Menu</p>
+    <p className="menu cta" onClick={HandleClick}>Menu</p>
 
   </header>
       </>

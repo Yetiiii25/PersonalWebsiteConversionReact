@@ -6,14 +6,16 @@ const Footer = () => {
   return (
     <>
       {/* <!----------------FOOTER------------------> */}
-  <div class="p-2 bg-white text-black text-left position-relative">
-    <div class="container clearfix">
+  <div className="p-2 bg-white text-black text-left position-relative">
+    <div className="container clearfix">
+      
       <hr />
 
       <p>My Portfolio 2022</p>
-      <p class="footerp">Designed and Developed by
-        <div class="dropup"><button class="dropbtn">Me</button>
-          <div class="dropup-content">
+      <p className="footerp">Designed and Developed by      </p>
+
+        <div className="dropup"><button className="dropbtn">Me</button>
+          <div className="dropup-content">
             <a href="#"> <img src="Images/html.png" alt="r"/>HTML</a>
             <a href="#"> <img src="Images/css.png" alt=""/>CSS</a>
             <a href="#"> <img src="Images/js.png" alt=""/>Java Script</a>
@@ -21,11 +23,12 @@ const Footer = () => {
             <a href="#"> <img src="Images/procreate.jpg" alt=""/>Procreate</a>
           </div>
         </div>
-      </p>
+
+
 
       {/* <!----------------FOOTER BUTTON UP------------------> */}
         <Link activeClass="active" to="top" spy={true} smooth={true} duration={200}>
-        <i class="footerbutton bi bi-arrow-up-square-fill h1 position-absolute bottom-0 end-0 p-5"></i>
+        <i className="footerbutton bi bi-arrow-up-square-fill h1 position-absolute bottom-0 end-0 p-5"></i>
         </Link>
 
     </div>
