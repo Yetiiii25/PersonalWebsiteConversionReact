@@ -1,4 +1,4 @@
-import Navbar from '../components/navbar/Navbar'
+import NavBar from '../components/navbar/NavBar'
 import Portfolio from '../components/portfolio/Portfolio'
 import Footer from '../components/footer/Footer'
 import Hamburger from '../components/hamburger/Hamburger'
@@ -11,7 +11,7 @@ const PortfolioPage = () => {
 
   return (
     <>
-    <Navbar />
+    <NavBar />
     <Hamburger />
     <Portfolio />
     <Footer />

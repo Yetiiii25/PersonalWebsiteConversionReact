@@ -1,4 +1,4 @@
-import Navbar from '../components/navbar/Navbar'
+import NavBar from '../components/navbar/NavBar'
 import Hamburger from '../components/hamburger/Hamburger'
 import Personal from '../components/portfolio/projects/Personal'
 import Footer from '../components/footer/Footer'
@@ -7,7 +7,7 @@ import Footer from '../components/footer/Footer'
 const PersonalPage = () => {
   return (
     <>
-    <Navbar />
+    <NavBar />
     <Hamburger />
     <Personal />
     <Footer />
