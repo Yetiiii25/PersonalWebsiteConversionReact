@@ -290,6 +290,13 @@ const LandingPage = () => {
           </div>
         </section>
       </div>
+
+     {/* <!------------------------LINE BREAK----------------------------> */}
+     <div className="container clearfix">
+        <hr />
+      </div>
+
+
       {/* <!-- Question Accordion --> */}
       <section id="questions" className="p-5">
         <div className="container">

@@ -12,7 +12,7 @@ const App = () => {
   
   return (
     <>
-    <Navbar  />
+    <Navbar />
     <Hamburger /> 
     <LandingPage />
     <Footer />
