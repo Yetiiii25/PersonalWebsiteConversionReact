@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { DropDown, DropDownContent, DropDownUl, Header, HomeLink, NavLinkLi, NavLinksUl } from '../styled/NavLinksStyled'
+import './NavbarStyle.css'
+
 
 
 
@@ -20,15 +21,16 @@ const NavBar = ({ HandleClick }) => {
   return (
     <>
       {/* <!--------------NAVBAR------------------> */}
-      <Header>
-        <HomeLink to='/' className="home">Home</HomeLink>
-          <NavLinksUl>
-            <NavLinkLi><Link to='/myportfolio'>Portfolio</Link></NavLinkLi>
-            <NavLinkLi><Link to='/'>About Me</Link></NavLinkLi>
-            <DropDown>
-            <NavLinkLi><a href="/#">Connect <>&#9662;</> </a></NavLinkLi>
-              <DropDownContent>
-                <DropDownUl>
+      <header className="header" id="myHeader" name='top'>
+        <Link to='/' className="home">Home</Link>
+        <nav>
+          <ul className="nav__links"> 
+            <li><Link to='/myportfolio'>Portfolio</Link></li>
+            <li><Link to='/'>About Me</Link></li>
+            <div className="dropdown">
+              <li className="dropbtn"><a href="/#">Connect <>&#9662;</> </a></li>
+              <div className="dropdown-content">
+                <ul className="dropdownUl">
                   <a href="mailto:flores.d@sscrmnl.edu.ph" target="_blank" rel="noreferrer"> <img src="Images/icons8-gmail.svg"
                     alt="r" /><span>Gmail</span> </a>
                   <a href="https://www.linkedin.com/in/deinenflores/" target="_blank" rel="noreferrer"> <img src="Images/linkedin.png"
@@ -39,12 +41,13 @@ const NavBar = ({ HandleClick }) => {
                     alt="" />Instagram</a>
                   <a href="https://www.twitter.com/deinennn/" target="_blank" rel="noreferrer"> <img src="Images/icons8-twitter.svg"
                     alt="" />Twitter</a>
-                </DropDownUl>
-              </DropDownContent>
-            </DropDown>
-          </NavLinksUl>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </nav>
         <p className="menu cta" onClick={HandleClick}>Menu</p>
-      </Header>
+      </header>
     </>
   );
 

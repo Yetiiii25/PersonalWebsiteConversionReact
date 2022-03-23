@@ -11,15 +11,14 @@
   padding-top: 102px;
 }*/
 
- /* header {
+header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
   background-color: white;
-} */
+}
 
-/*
 .home {
   margin-right: auto;
   font-family: Satosh;
@@ -28,43 +27,43 @@
   text-decoration: none;
   padding-bottom: 14px;
   
-} */
+}
 
 
-/* .nav__links {
+.nav__links {
     list-style: none;
     display: flex;
     text-decoration: none;
     
-  } */
+  }
   
-  /* .nav__links a, */
-  /* .cta,
+  .nav__links a,
+  .cta,
   .overlay__content a {
     font-family: Satosh;
     font-weight: 700;
     color:black;
     text-decoration: none;
     
-  } */
+  }
   
-  /* .nav__links li {
+  .nav__links li {
     padding: 0px 20px;
-  } */
+  }
   
-  /* .nav__links li a {
+  .nav__links li a {
     transition: all 0.3s ease 0s;
-  } */
+  }
   
-  /* .nav__links li a:hover {
+  .nav__links li a:hover {
     color:blueviolet;
   }
   
   .home:hover{
     color: blueviolet;
-   } */
+   }
   
-  /* .cta {
+  .cta {
     margin-left: 20px;
     padding: 9px;
     
@@ -73,35 +72,35 @@
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-  } */
+  }
   
-  /* .cta:hover {
+  .cta:hover {
     background-color: blueviolet ;
-  } */
+  }
   
   
   /* DROP DOWN */
-  /* .dropdownUl {
+  .dropdownUl {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  } */
+  }
   
-  /* .dropdownUl img{
+  .dropdownUl img{
     transform: scale(0.5);
-  } 
+  }
   
-   .dropdownUl a:hover{
+  .dropdownUl a:hover{
     color: blueviolet;
-  }  */
+  }
   
-   /* .dropbtn {
+  .dropbtn {
     background-color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-  } Di nagamit*/
+  }
   
   .dropdown {
     position: relative;
@@ -124,7 +123,9 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+   
     width: 100%;
+     
     
   }
   
@@ -135,6 +136,16 @@
   }
 
 
+@media screen and (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
   
   @media only screen and (max-width: 800px) {
     .nav__links,
@@ -145,6 +156,3 @@
       display: initial;
     }
   }
-
-
-  

@@ -11,10 +11,12 @@ const PortfolioPage = () => {
 
   return (
     <>
+    
     <NavBar />
     <Hamburger />
     <Portfolio />
     <Footer />
+  
     </>
   )
 }
