@@ -11,7 +11,7 @@ import PisPage from './routes/PisPage';
 
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''}>
     <Routes>
       
       <Route path='/' element={<App />} />
